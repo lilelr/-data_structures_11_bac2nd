@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE6BB2D11DAC824700D218E9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE6BB2D01DAC824700D218E9 /* main.cpp */; };
+		DE6BB2D11DAC824700D218E9 /*  UVa210 Concurrency Simulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE6BB2D01DAC824700D218E9 /*  UVa210 Concurrency Simulator.cpp */; };
+		DE6BB2D81DAC8E8F00D218E9 /* UVa514 Rails.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE6BB2D71DAC8E8F00D218E9 /* UVa514 Rails.cpp */; };
+		DE6BB2DA1DAC8FED00D218E9 /* Uva 442 Matrix Chain Multiplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE6BB2D91DAC8FED00D218E9 /* Uva 442 Matrix Chain Multiplication.cpp */; };
+		DE6BB2DC1DAC920A00D218E9 /* UVa11988 Broken Keyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE6BB2DB1DAC920A00D218E9 /* UVa11988 Broken Keyboard.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,12 @@
 
 /* Begin PBXFileReference section */
 		DE6BB2CD1DAC824700D218E9 /* Data Structure Basis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Structure Basis"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE6BB2D01DAC824700D218E9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DE6BB2D01DAC824700D218E9 /*  UVa210 Concurrency Simulator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = " UVa210 Concurrency Simulator.cpp"; sourceTree = "<group>"; };
+		DE6BB2D71DAC8E8F00D218E9 /* UVa514 Rails.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "UVa514 Rails.cpp"; sourceTree = "<group>"; };
+		DE6BB2D91DAC8FED00D218E9 /* Uva 442 Matrix Chain Multiplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva 442 Matrix Chain Multiplication.cpp"; sourceTree = "<group>"; };
+		DE6BB2DB1DAC920A00D218E9 /* UVa11988 Broken Keyboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "UVa11988 Broken Keyboard.cpp"; sourceTree = "<group>"; };
+		DE939E201DAD14A4003EF36C /* in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = in; sourceTree = "<group>"; };
+		DE939E211DAD14AC003EF36C /* out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = out; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,12 @@
 		DE6BB2CF1DAC824700D218E9 /* Data Structure Basis */ = {
 			isa = PBXGroup;
 			children = (
-				DE6BB2D01DAC824700D218E9 /* main.cpp */,
+				DE6BB2D01DAC824700D218E9 /*  UVa210 Concurrency Simulator.cpp */,
+				DE6BB2D71DAC8E8F00D218E9 /* UVa514 Rails.cpp */,
+				DE6BB2D91DAC8FED00D218E9 /* Uva 442 Matrix Chain Multiplication.cpp */,
+				DE6BB2DB1DAC920A00D218E9 /* UVa11988 Broken Keyboard.cpp */,
+				DE939E201DAD14A4003EF36C /* in */,
+				DE939E211DAD14AC003EF36C /* out */,
 			);
 			path = "Data Structure Basis";
 			sourceTree = "<group>";
@@ -118,7 +131,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE6BB2D11DAC824700D218E9 /* main.cpp in Sources */,
+				DE6BB2D81DAC8E8F00D218E9 /* UVa514 Rails.cpp in Sources */,
+				DE6BB2DA1DAC8FED00D218E9 /* Uva 442 Matrix Chain Multiplication.cpp in Sources */,
+				DE6BB2DC1DAC920A00D218E9 /* UVa11988 Broken Keyboard.cpp in Sources */,
+				DE6BB2D11DAC824700D218E9 /*  UVa210 Concurrency Simulator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +253,7 @@
 				DE6BB2D61DAC824700D218E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
